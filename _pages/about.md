@@ -13,7 +13,7 @@ My Ph.D. research focuses on active dv/dt control methods, gate-drivers, and iso
 
 In summer 2026 I was a power electronics intern at Tesla Energy in Palo Alto, CA, on the Power Conversion Hub team where I studied Tesla Powerwall 3 and tested and fixed hardware issues in its DC-AC inverter stage and GFCI.
 
-Before my Ph.D., I was a Laboratory Instructor at GIK Institute, Pakistan (2020–2024), where I upgraded the Linear Control Systems and DSP labs with Siemens PLCs and DSP kits.*
+Prior to pursuing Ph.D., I was a Laboratory Lecturer at GIK Institute, Pakistan (2020–2024), where I upgraded the Linear Control Systems and DSP labs with Siemens PLCs and DSP kits.*
 
 Research interests
 ======
