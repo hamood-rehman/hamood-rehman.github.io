@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Share of SHAP attribution to dynamic voltage imbalance</title>
+  <desc id="d">Gate-source capacitance mismatch about 50 percent, threshold voltage mismatch about 30 percent, gate-drain capacitance mismatch about 13 percent, drain-source capacitance mismatch about 7 percent, transconductance mismatch negligible.</desc>
+  <rect x="0.5" y="0.5" width="639" height="299" rx="8" fill="#fcfcfb" stroke="#e4e3df"/>
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="24" y="36" font-size="17" font-weight="600" fill="#0b0b0b">Share of SHAP attribution to dynamic voltage imbalance</text>
+    <text x="24" y="58" font-size="13" fill="#52514e">Series pairs of 3.3 kV SiC MOSFETs, 1–4 kV, 10–40 A (IEEE APEC 2026)</text>
+
+    <!-- baseline -->
+    <line x1="120.5" y1="80" x2="120.5" y2="272" stroke="#c3c2b7" stroke-width="1"/>
+
+    <!-- scale: 1% = 7 px, bars 22 px tall, rows every 38 px -->
+    <!-- dCgs ~50% -->
+    <text x="108" y="102" font-size="15" fill="#0b0b0b" text-anchor="end">ΔC<tspan dy="4" font-size="11">gs</tspan></text>
+    <path d="M121 86 H467 a4 4 0 0 1 4 4 V104 a4 4 0 0 1 -4 4 H121 Z" fill="#2a78d6"/>
+    <text x="479" y="102" font-size="14" fill="#0b0b0b">≈ 50%</text>
+
+    <!-- dVth ~30% -->
+    <text x="108" y="140" font-size="15" fill="#0b0b0b" text-anchor="end">ΔV<tspan dy="4" font-size="11">th</tspan></text>
+    <path d="M121 124 H327 a4 4 0 0 1 4 4 V142 a4 4 0 0 1 -4 4 H121 Z" fill="#2a78d6"/>
+    <text x="339" y="140" font-size="14" fill="#0b0b0b">≈ 30%</text>
+
+    <!-- dCgd ~13% -->
+    <text x="108" y="178" font-size="15" fill="#0b0b0b" text-anchor="end">ΔC<tspan dy="4" font-size="11">gd</tspan></text>
+    <path d="M121 162 H208 a4 4 0 0 1 4 4 V180 a4 4 0 0 1 -4 4 H121 Z" fill="#2a78d6"/>
+    <text x="220" y="178" font-size="14" fill="#0b0b0b">≈ 13%</text>
+
+    <!-- dCds ~7% -->
+    <text x="108" y="216" font-size="15" fill="#0b0b0b" text-anchor="end">ΔC<tspan dy="4" font-size="11">ds</tspan></text>
+    <path d="M121 200 H166 a4 4 0 0 1 4 4 V218 a4 4 0 0 1 -4 4 H121 Z" fill="#2a78d6"/>
+    <text x="178" y="216" font-size="14" fill="#0b0b0b">≈ 7%</text>
+
+    <!-- dgm negligible -->
+    <text x="108" y="254" font-size="15" fill="#0b0b0b" text-anchor="end">Δg<tspan dy="4" font-size="11">m</tspan></text>
+    <text x="132" y="254" font-size="14" fill="#52514e">negligible under tested conditions</text>
+  </g>
+</svg>
