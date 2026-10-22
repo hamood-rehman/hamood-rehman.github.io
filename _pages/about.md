@@ -7,11 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I am third-year Ph.D. student in [Power Switch Lab](https://psl.uark.edu/sample-page/) at the NSF [GRAPES Research Center](https://grapes.uapower.group/)  at the University of Arkansas under the supervision of Dr. [Xiaoqing Song](https://scholar.google.com/citations?user=WZ3UPGAAAAAJ&hl=zh-CN). I build medium-voltage SiC switching hardware: active dv/dt control for series-connected SiC MOSFETs, and the isolated gate drivers and auxiliary power supplies that medium-voltage devices need. My current project is a 20 kV SiC switch made from series-stacked 6.5 kV MOSFETs, with the gate driver, isolated supply, and dv/dt control integrated at every stage.
-
-In summer 2026 I was a power electronics intern at Tesla Energy in Palo Alto, CA, on the Power Conversion Hub team. I troubleshot hardware issues on Powerwall 3 at an 800 V DC bus, characterized the thermal and gain behavior of ground-fault circuit interrupter (GFCI) magnetic cores from several vendors across temperature, and built a MATLAB/Simulink tool for efficiency analysis of a split-phase DC–AC inverter using triangular current mode (TCM) control of interleaved T-type legs.
-
-Before my Ph.D., I was a Laboratory Instructor at GIK Institute, Pakistan (2020–2024), where I upgraded the Linear Control Systems and DSP labs with Siemens PLCs and DSP kits. I received my M.S. in Electrical Engineering from GIK Institute in 2019, with a thesis on switched-inductor buck-boost DC–DC converters that was later published in *IET Power Electronics*.
+I am third-year Ph.D. student in [Power Switch Lab](https://psl.uark.edu/sample-page/) at the NSF [GRAPES Research Center](https://grapes.uapower.group/)  at the University of Arkansas, Fayetteville, under the guidance the of Dr. [Xiaoqing Song](https://scholar.google.com/citations?user=WZ3UPGAAAAAJ&hl=zh-CN). I obtained my MS degree from [Ghulam Ishaq Khan Institute of Engineering Sciences and Technology](https://giki.edu.pk/), Paksitan in 2019, and BS degree from [University of Engineering and Technology](https://www.uetpeshawar.edu.pk/), Peshawar, Pakistan, in 2016.
+My Ph.D. research focuses on active dv/dt control methods, gate-drivers, and isolated auxiliary power supply for medium-voltage SiC MOSFETs.
+In summer 2026 I was a power electronics intern at Tesla Energy in Palo Alto, CA, on the Power Conversion Hub team where I studied Tesla Powerwall 3 and tested and fixed hardware issues in its DC-AC inverter stage and GFCI.
+Before my Ph.D., I was a Laboratory Instructor at GIK Institute, Pakistan (2020–2024), where I upgraded the Linear Control Systems and DSP labs with Siemens PLCs and DSP kits.*
 
 Research interests
 ======
