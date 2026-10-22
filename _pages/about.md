@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am third-year Ph.D. student in [Power Switch Lab](https://psl.uark.edu/sample-page/) at the [GRAPES Research Center](https://grapes.uapower.group/) NSF  at the University of Arkansas under the supervision of Dr. Xiaoqing Song. I build medium-voltage SiC switching hardware: active dv/dt control for series-connected SiC MOSFETs, and the isolated gate drivers and auxiliary power supplies that medium-voltage devices need. My current project is a 20 kV SiC switch made from series-stacked 6.5 kV MOSFETs, with the gate driver, isolated supply, and dv/dt control integrated at every stage.
+I am third-year Ph.D. student in [Power Switch Lab](https://psl.uark.edu/sample-page/) at the NSF [GRAPES Research Center](https://grapes.uapower.group/)  at the University of Arkansas under the supervision of Dr. [Xiaoqing Song](https://scholar.google.com/citations?user=WZ3UPGAAAAAJ&hl=zh-CN). I build medium-voltage SiC switching hardware: active dv/dt control for series-connected SiC MOSFETs, and the isolated gate drivers and auxiliary power supplies that medium-voltage devices need. My current project is a 20 kV SiC switch made from series-stacked 6.5 kV MOSFETs, with the gate driver, isolated supply, and dv/dt control integrated at every stage.
 
 In summer 2026 I was a power electronics intern at Tesla Energy in Palo Alto, CA, on the Power Conversion Hub team. I troubleshot hardware issues on Powerwall 3 at an 800 V DC bus, characterized the thermal and gain behavior of ground-fault circuit interrupter (GFCI) magnetic cores from several vendors across temperature, and built a MATLAB/Simulink tool for efficiency analysis of a split-phase DC–AC inverter using triangular current mode (TCM) control of interleaved T-type legs.
 
