@@ -21,10 +21,3 @@ Research interests
 
 SiC devices rated above about 15 kV are still mostly research parts, while 3.3 kV and 6.5 kV MOSFETs are readily available. Stacking them gives a practical high-voltage switch, as long as every device stays within its safe voltage during fast transients. That is the hard part: small mismatches in device parameters, gate drive, layout parasitics, or timing produce large voltage imbalance at SiC switching speeds. More on the [Research]({{ site.baseurl }}/research/) and [Publications]({{ site.baseurl }}/publications/) pages.
 
-News
-======
-
-- **2026:** Paper on a 10 kV SiC switch built from voltage-balanced 3.3 kV MOSFETs accepted for oral presentation at IEEE APEC 2027, New Orleans, LA.
-- **Summer 2026:** Power electronics intern, Tesla Energy, Palo Alto, CA.
-- **2026:** Oral presentation at IEEE APEC 2026, San Antonio, TX, on how device-parameter mismatch drives dynamic voltage imbalance in series-connected SiC MOSFETs.
-- **2025:** Paper on matching networks for wireless gate-driver power supplies presented at IEEE ECCE 2025, Philadelphia, PA.
