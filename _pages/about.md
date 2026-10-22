@@ -11,7 +11,7 @@ I am third-year Ph.D. student in [Power Switch Lab](https://psl.uark.edu/sample-
 
 My Ph.D. research focuses on active dv/dt control methods, gate-drivers, and isolated auxiliary power supply for medium-voltage SiC MOSFETs.
 
-In summer 2026 I was a power electronics intern at Tesla Energy in Palo Alto, CA, on the Power Conversion Hub team where I studied Tesla Powerwall 3 and tested and fixed hardware issues in its DC-AC inverter stage and GFCI.
+In summer 2026, I was a power electronics intern at Tesla Energy in Palo Alto, CA, on the Power Conversion Hub team where I studied Tesla's residential Powerwall 3 and tested and fixed hardware issues in its DC-AC inverter stage and GFCI.
 
 Prior to pursuing Ph.D., I was a Laboratory Lecturer at GIK Institute, Pakistan (2020–2024), where I upgraded the Linear Control Systems and DSP labs with Siemens PLCs and DSP kits.*
 
