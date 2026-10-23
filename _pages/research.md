@@ -13,20 +13,15 @@ author_profile: true
 - Active dv/dt control mechanism powered from the gate driver’s own supply, so no extra isolated supply is needed.
 - Tested upto 6kV DC bus and 50A switching current in continuous operation with voltage imbalance between devices stayed within 300V, against up to 1.5kV with no control at 4kV DC bus. 
 
-<figure>
-  <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png" alt="Architecture layout">
-  <figcaption> Architecture layout.</figcaption>
-</figure>
-
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
   
   <figure style="flex: 1 1 300px; margin: 0; min-width: 250px;">
-    <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png" alt="Architecture layout 11111" style="width: 100%; height: auto; display: block;">
-    <figcaption style="margin-top: 8px; font-style: italic;">Architecture layout 1111111.</figcaption>
+    <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png" alt="Architecture layout" style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 8px; font-style: italic;">Architecture layout.</figcaption>
   </figure>
 
-  <figure style="flex: 1 1 300px; margin: 0; min-width: 250px;">
-    <img src="{{ base_path }}/images/research/10kV switch prototype.png" alt="Second image description" style="width: 100%; height: auto; display: block;">
+  <figure style="flex: 1 1 300px; margin: 0; min-width: 300px;">
+    <img src="{{ base_path }}/images/research/10kV switch prototype.png" alt="Prototype" style="width: 150%; height: auto; display: block;">
     <figcaption style="margin-top: 8px; font-style: italic;">Prototype.</figcaption>
   </figure>
 
