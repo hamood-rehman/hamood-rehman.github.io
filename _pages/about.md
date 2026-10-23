@@ -23,5 +23,5 @@ I am interested in simplifying the power-stage design of medium-voltage power co
 
 I am interested in developing high-voltage SiC switch using low-voltage MOSFETs and adopting that approach instead of multi-level approach in medium-voltage power converters. But discrete devices above ~15kV are still mostly research parts. However, discrete 3.3kV and 6.5kV SiC MOSFETs are readily available. So, stacking low-voltage devices gives a practical high-voltage switch, as long as every device stays within its safe voltage during all operation conditions. That is the hard part because small mismatches in MOSFET's intrinsic parameters, gate driver output voltage-level and timing, and layout parasitics cause large voltage imbalance during switching transitions. My goal is to develop low-cost, high-voltage SiC switch architectures that offer above 20kV voltage-blocking capability while achieving high power-density and reliable operation.
 
-More on the [Research]({{ site.baseurl }}/research/) and [Publications]({{ site.baseurl }}/publications/) pages.
+See my [Research]({{ site.baseurl }}/research/) and [Publications]({{ site.baseurl }}/publications/).
 
