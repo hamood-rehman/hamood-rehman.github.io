@@ -14,8 +14,8 @@ author_profile: true
 - Tested upto 6kV DC bus and 50A switching current in continuous operation with voltage imbalance between devices stayed within 300V, against up to 1.5kV with no control at 4kV DC bus. 
 
 <figure>
-  <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png" alt="Block diagram of the series-stacked SiC switch and its per-stage voltage-balancing loop">
-  <figcaption>Prototype: GaN H-bridge, fixture for the resonant networks, PCB air-core transformer, and the −5 V / +15 V rectifier outputs.</figcaption>
+  <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png" alt="Architecture layout">
+  <figcaption> Architecture layout.</figcaption>
 </figure>
 
 ## Which device mismatches actually cause voltage imbalance?
