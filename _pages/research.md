@@ -18,6 +18,21 @@ author_profile: true
   <figcaption> Architecture layout.</figcaption>
 </figure>
 
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
+  
+  <figure style="flex: 1 1 300px; margin: 0; min-width: 250px;">
+    <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png" alt="Architecture layout" style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 8px; font-style: italic;">Architecture layout.</figcaption>
+  </figure>
+
+  <figure style="flex: 1 1 300px; margin: 0; min-width: 250px;">
+    <img src="{{ base_path }}/images/research/10kV switch prototype.png" alt="Second image description" style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 8px; font-style: italic;">Prototype.</figcaption>
+  </figure>
+
+</div>
+
+
 ## Which device mismatches actually cause voltage imbalance?
 
 *IEEE APEC 2026, oral presentation*
