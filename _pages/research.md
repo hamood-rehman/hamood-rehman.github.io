@@ -7,13 +7,11 @@ author_profile: true
 
 {% include base_path %}
 
-## 10 kV SiC switch from stacked 3.3 kV MOSFETs, scaling to 20 kV
+## 10kV SiC switch from stacked 3.3kV SiC MOSFETs
 
-*Ph.D. project: 20 kV High Voltage SiC Switch for Next Generation Energy Conversion and Grid Modernization. Paper accepted for oral presentation at IEEE APEC 2027.*
-
-- Three Wolfspeed 3.3 kV / 52 A SiC MOSFETs in series, with signal, power, and control integrated at every stage. Each device has its own board with a gate driver, V<sub>DS</sub> sensing, a local dv/dt controller, and a two-stage, multichannel isolated auxiliary supply rated for 12 kV insulation. The boards stack modularly, so blocking voltage scales with the number of stages and the isolation rating of the supply.
-- **Voltage balancing:** a low-voltage NPN BJT in each MOSFET's Kelvin-source path acts as a voltage-controlled resistor during the turn-off Miller plateau. V<sub>DS</sub> is sampled and held on every pulse, and a PI loop sets the BJT base drive to slow or speed that device's turn-off dv/dt on the next pulse. Because the BJT emitter sits at the MOSFET source, the controller shares the gate driver's rail, so no additional isolated supply is needed per device.
-- **Status:** the 10 kV-rated prototype is built, and the balancing method has been validated experimentally on it at reduced bus voltage. The 20 kV version is the current design effort, using 6.5 kV-class devices and a single-stage, multichannel RF-switched auxiliary supply with 20 kV isolation. It has not yet been built or tested.
+- **Modular 10 kV SiC switch:** three series-stacked 3.3 kV MOSFETs, each stage with its own gate driver, dv/dt control and 12kV-isolated supply. Scaling to 20 kV with 6.5 kV devices.
+- **Low-cost voltage balancing:** a PI-controlled BJT in the Kelvin-source path tunes each device’s turn-off dv/dt, powered from the gate driver’s own supply, so no extra isolated supply is needed.
+- **Tested up to 6 kV and 50 A:** the voltage spread between devices stayed within 300 V, against up to 1.5 kV with no control at 4 kV. Accepted for oral presentation at APEC 2027.
 
 <figure>
   <img src="{{ base_path }}/images/research/stacked-switch.svg" alt="Block diagram of the series-stacked SiC switch and its per-stage voltage-balancing loop">
