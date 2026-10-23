@@ -21,7 +21,7 @@ author_profile: true
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
   
   <figure style="flex: 1 1 300px; margin: 0; min-width: 250px;">
-    <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png" alt="Architecture layout" style="width: 100%; height: auto; display: block;">
+    <img src="{{ base_path }}/images/research/10kv SiC switch Architecture 111111.png" alt="Architecture layout" style="width: 100%; height: auto; display: block;">
     <figcaption style="margin-top: 8px; font-style: italic;">Architecture layout.</figcaption>
   </figure>
 
