@@ -15,7 +15,6 @@ author_profile: true
 
 <figure>
   <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.emf" alt="Block diagram of the series-stacked SiC switch and its per-stage voltage-balancing loop">
-  <figcaption>Architecture of the stacked switch (left) and the dv/dt balancing loop on each stage (right).</figcaption>
 </figure>
 
 ## Which device mismatches actually cause voltage imbalance?
