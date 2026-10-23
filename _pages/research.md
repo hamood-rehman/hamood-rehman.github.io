@@ -15,6 +15,7 @@ author_profile: true
 
 <figure>
   <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png" alt="Block diagram of the series-stacked SiC switch and its per-stage voltage-balancing loop">
+  <figcaption>Prototype: GaN H-bridge, fixture for the resonant networks, PCB air-core transformer, and the −5 V / +15 V rectifier outputs.</figcaption>
 </figure>
 
 ## Which device mismatches actually cause voltage imbalance?
