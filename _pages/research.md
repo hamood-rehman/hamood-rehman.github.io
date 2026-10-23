@@ -9,9 +9,9 @@ author_profile: true
 
 ## 10kV SiC switch from stacked 3.3kV SiC MOSFETs
 
-- **Modular 10 kV SiC switch:** three series-stacked 3.3 kV MOSFETs, each stage with its own gate driver, dv/dt control and 12kV-isolated supply. Scaling to 20 kV with 6.5 kV devices.
-- **Low-cost voltage balancing:** a PI-controlled BJT in the Kelvin-source path tunes each device’s turn-off dv/dt, powered from the gate driver’s own supply, so no extra isolated supply is needed.
-- **Tested up to 6 kV and 50 A:** the voltage spread between devices stayed within 300 V, against up to 1.5 kV with no control at 4 kV. Accepted for oral presentation at APEC 2027.
+- **Modular 10 kV SiC switch:** three series-stacked 3.3kV MOSFETs, each stage with its own gate driver, dv/dt control and 12kV-isolated supply. Scalable to higher voltage levels.
+- **Low-cost voltage balancing:** an NPN BJT in the Kelvin-source path tunes each device’s turn-off dv/dt, powered from the gate driver’s own supply, so no extra isolated supply is needed.
+- **Tested up to 6kV and 50 A:** the voltage spread between devices stayed within 300V, against up to 1.5kV with no control at 4 kV. 
 
 <figure>
   <img src="{{ base_path }}/images/research/stacked-switch.svg" alt="Block diagram of the series-stacked SiC switch and its per-stage voltage-balancing loop">
