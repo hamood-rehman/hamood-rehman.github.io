@@ -11,7 +11,7 @@ author_profile: true
 
 - Three series-stacked 3.3kV MOSFETs, each stage with its own gate driver, active dv/dt control and 12kV-isolated supply. Scalable to higher voltage levels.
 - Active dv/dt control mechanism powered from the gate driver’s own supply, so no extra isolated supply is needed.
-- Tested upto 6kV and 50A in continuous operation with voltage spread between devices stayed within 300V, against up to 1.5kV with no control at 4 kV. 
+- Tested upto 6kV DC bus and 50A switching current in continuous operation with voltage imbalance between devices stayed within 300V, against up to 1.5kV with no control at 4kV DC bus. 
 
 <figure>
   <img src="{{ base_path }}/images/research/stacked-switch.svg" alt="Block diagram of the series-stacked SiC switch and its per-stage voltage-balancing loop">
