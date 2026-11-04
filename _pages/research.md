@@ -23,7 +23,7 @@ author_profile: true
 - Compared four compensation networks (S-S, LCC-S, S/S-CL, LCL-S) on identical hardware while double-pulse testing a 3.3 kV SiC MOSFET at a 2.5 kV bus, measuring coupling capacitance, output stability under dv/dt, and thermal behavior.
 
 <figure>
-  <img src="{{ base_path }}/images/research/wpt-gdps-prototype.jpg" alt="Wireless gate-driver power supply prototype:" style="width: 500%; height: 250%; display: block;">
+  <img src="{{ base_path }}/images/research/wpt-gdps-prototype.jpg" alt="Wireless gate-driver power supply prototype" style="width: 500%; height: 250%; display: block;">
 </figure>
 
 ## ‘Impact Factor’ of parameters variations on voltage-balancing
@@ -33,7 +33,7 @@ author_profile: true
 - Experimental validation conducted with 3.3kV SiC MOSFETs with at 1kV/2kV/3kV/4kV DC bus voltages and 10A/20A/30A/40A switching currents to get high fidelity experimental data.
 
 <figure>
-  <img src="{{ base_path }}/images/research/IF.png" alt="Bar chart: share of SHAP attribution to dynamic voltage imbalance." style="width: 500%; height: 250%; display: block;">
+  <img src="{{ base_path }}/images/research/IF.png" alt="Bar chart: share of SHAP attribution to dynamic voltage imbalance." style="width: 800%; height: 400%; display: block;">
 </figure>
 
 ## 650 V GaN three-level flying-capacitor inverter building block
