@@ -25,16 +25,6 @@ author_profile: true
     <figcaption style="margin-top: 8px; font-style: italic;">High-voltage SiC prototype.</figcaption>
   </figure>
 
-  <figure style="margin: 0;">
-    <img src="{{ base_path }}/images/research/HI.png" alt="Research image 3" style="width: 100%; height: auto; display: block;">
-    <figcaption style="margin-top: 8px; font-style: italic;">Research image 3.</figcaption>
-  </figure>
-
-  <figure style="margin: 0;">
-    <img src="{{ base_path }}/images/research/PrototypeDetails.png" alt="Research image 4" style="width: 100%; height: auto; display: block;">
-    <figcaption style="margin-top: 8px; font-style: italic;">Research image 4.</figcaption>
-  </figure>
-
 </div>
 
 ## Which device mismatches actually cause voltage imbalance?
