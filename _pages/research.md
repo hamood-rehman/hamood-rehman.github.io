@@ -21,7 +21,7 @@ author_profile: true
   </figure>
 
   <figure style="flex: 1 1 300px; margin: 0; min-width: 300px;">
-    <img src="{{ base_path }}/images/research/10kV switch prototype.png" alt="Prototype" style="width: 150%; height: auto; display: block;">
+    <img src="{{ base_path }}/images/research/20261103_120929.jpg" alt="Prototype" style="width: 150%; height: auto; display: block;">
     <figcaption style="margin-top: 8px; font-style: italic;">Prototype.</figcaption>
   </figure>
 
