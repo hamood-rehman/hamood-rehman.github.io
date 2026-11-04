@@ -13,16 +13,42 @@ author_profile: true
 - Active dv/dt control mechanism powered from the gate driver’s own supply, so no extra isolated supply is needed.
 - Tested upto 6kV DC bus and 50A switching current in continuous operation with voltage imbalance between devices stayed within 300V, against up to 1.5kV with no control at 4kV DC bus. 
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
-  
-  <figure style="flex: 1 1 300px; margin: 0; min-width: 250px;">
-    <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png" alt="Architecture layout" style="width: 100%; height: auto; display: block;">
-    <figcaption style="margin-top: 8px; font-style: italic;">Architecture layout.</figcaption>
+<div style="
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    align-items: stretch;
+">
+
+  <!-- Row 1, Column 1 -->
+  <figure style="grid-column: 1; grid-row: 1; margin: 0;">
+    <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png"
+         alt="10 kV SiC switch architecture"
+         style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 8px; font-style: italic;">
+      10 kV SiC switch architecture.
+    </figcaption>
   </figure>
 
-  <figure style="flex: 1 1 300px; margin: 0; min-width: 300px;">
-    <img src="{{ base_path }}/images/research/20261103_120929.jpg" alt="Prototype" style="width: 150%; height: auto; display: block;">
-    <figcaption style="margin-top: 8px; font-style: italic;">Prototype.</figcaption>
+  <!-- Row 2, Column 1 -->
+  <figure style="grid-column: 1; grid-row: 2; margin: 0;">
+    <img src="{{ base_path }}/images/research/HI.png"
+         alt="Research image"
+         style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 8px; font-style: italic;">
+      Research prototype.
+    </figcaption>
+  </figure>
+
+  <!-- Column 2 (spanning both rows) -->
+  <figure style="grid-column: 2 / 4; grid-row: 1 / 3; margin: 0;">
+    <img src="{{ base_path }}/images/research/20261103_120929.jpg"
+         alt="High-voltage SiC gate driver prototype"
+         style="width: 100%; height: 100%; object-fit: contain; display: block;">
+    <figcaption style="margin-top: 8px; font-style: italic;">
+      High-voltage SiC gate driver prototype.
+    </figcaption>
   </figure>
 
 </div>
