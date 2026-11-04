@@ -13,12 +13,8 @@ author_profile: true
 - Active dv/dt control mechanism powered from the gate driver’s own supply, so no extra isolated supply is needed.
 - Tested upto 6kV DC bus and 50A switching current in continuous operation with voltage imbalance between devices stayed within 300V, against up to 1.5kV with no control at 4kV DC bus. 
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; align-items: start;">
-
-
   <figure>
   <img src="{{ base_path }}/images/research/10kV Switch.png" alt="10 kV SiC switch architecture" style="width: 100%; height: auto; display: block;">
-    <figcaption style="margin-top: 8px; font-style: italic;">10 kV SiC switch architecture.</figcaption>
 </figure>
 
 </div>
