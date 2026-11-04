@@ -20,8 +20,6 @@ author_profile: true
 
 ## ‘Impact Factor’ of Parameters Variations on Voltage Balancing
 
-*IEEE APEC 2026, oral presentation*
-
 - Series-connected SiC MOSFETs experience dynamic voltage-imbalance.
 - A quantitative 'Impact Factor' is proposed to identify parameters that affect the voltage-imbalance.
 - Experimental validation conducted with 3.3kV SiC MOSFETs with at 1kV/2kV/3kV/4kV DC bus voltages and 10A/20A/30A/40A switching currents to get high fidelity experimental data.
@@ -32,15 +30,11 @@ author_profile: true
 
 ## Wireless gate-driver power supply for medium-voltage SiC MOSFETs
 
-*IEEE ECCE 2025*
-
-- 6 W, +15 V / −5 V supply: GaN full-bridge inverter at 2.8 MHz, PCB air-core transformer with a 12.7 mm gap (about 38 kV theoretical air insulation), and full-bridge rectifiers.
+- 6 W, +15 V / −5 V supply: GaN full-bridge inverter at 2.8 MHz, PCB air-core transformer with a 12.7 mm gap (about 38kV theoretical air insulation), and full-bridge rectifiers.
 - Compared four compensation networks (S-S, LCC-S, S/S-CL, LCL-S) on identical hardware while double-pulse testing a 3.3 kV SiC MOSFET at a 2.5 kV bus, measuring coupling capacitance, output stability under dv/dt, and thermal behavior.
-- **Result:** the matching network and rectifier, not only the transformer gap and insulation, change coupling capacitance and common-mode immunity. Networks with fewer reactive elements held up better under high dv/dt.
 
 <figure>
-  <img src="{{ base_path }}/images/research/wpt-gdps-prototype.jpg" alt="Wireless gate-driver power supply prototype: GaN H-bridge, fixture for resonant networks, 128 by 116 mm PCB air-core transformer with 12.7 mm gap, and -5 V and +15 V rectifier outputs">
-  <figcaption>Prototype: GaN H-bridge, fixture for the resonant networks, PCB air-core transformer, and the −5 V / +15 V rectifier outputs.</figcaption>
+  <img src="{{ base_path }}/images/research/wpt-gdps-prototype.jpg" alt="Wireless gate-driver power supply prototype:" style="width: 500%; height: 250%; display: block;">
 </figure>
 
 ## 650 V GaN three-level flying-capacitor inverter building block
