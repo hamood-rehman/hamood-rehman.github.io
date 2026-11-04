@@ -16,7 +16,7 @@ Research interests
 
 - **Series-connected SiC MOSFET switches** for 10–20 kV applications such as medium-voltage converters, data-center power, and solid-state circuit breakers
 - **Active dv/dt control** for dynamic voltage balancing without snubbers or extra isolated supplies
-- **Isolated gate-driver power supplies** with high insulation and low coupling capacitance
+- **Medium-voltage isolated auxiliary power supplies** with high voltage-insulation and low capacitance-coupling
 - **Measurement-driven sensitivity analysis** that links device parameter spread to switching behavior
 
 I am interested in simplifying the power-stage design of medium-voltage power converters. One of the options has been to replace the unnecessary multi-level architectures of switching legs with single half-bridge operation. To realize that, high-voltage monolithic devices are required.
