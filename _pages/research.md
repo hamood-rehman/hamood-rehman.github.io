@@ -13,51 +13,26 @@ author_profile: true
 - Active dv/dt control mechanism powered from the gate driver’s own supply, so no extra isolated supply is needed.
 - Tested upto 6kV DC bus and 50A switching current in continuous operation with voltage imbalance between devices stayed within 300V, against up to 1.5kV with no control at 4kV DC bus. 
 
-<div style="
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    align-items: start;
-">
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; align-items: start;">
 
-  <!-- Image 1: Row 1, Column 1 -->
   <figure style="margin: 0;">
-    <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png"
-         alt="10 kV SiC switch architecture"
-         style="width: 100%; height: auto; display: block;">
-    <figcaption style="margin-top: 8px; font-style: italic;">
-      10 kV SiC switch architecture.
-    </figcaption>
+    <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png" alt="10 kV SiC switch architecture" style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 8px; font-style: italic;">10 kV SiC switch architecture.</figcaption>
   </figure>
 
-  <!-- Image 2: Row 1, Column 2 -->
   <figure style="margin: 0;">
-    <img src="{{ base_path }}/images/research/20261103_120929.jpg"
-         alt="High-voltage SiC prototype"
-         style="width: 100%; height: auto; display: block;">
-    <figcaption style="margin-top: 8px; font-style: italic;">
-      High-voltage SiC prototype.
-    </figcaption>
+    <img src="{{ base_path }}/images/research/20261103_120929.jpg" alt="High-voltage SiC prototype" style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 8px; font-style: italic;">High-voltage SiC prototype.</figcaption>
   </figure>
 
-  <!-- Image 3: Row 2, Column 1 -->
   <figure style="margin: 0;">
-    <img src="{{ base_path }}/images/research/HI.png"
-         alt="Research image 3"
-         style="width: 100%; height: auto; display: block;">
-    <figcaption style="margin-top: 8px; font-style: italic;">
-      Research image 3.
-    </figcaption>
+    <img src="{{ base_path }}/images/research/HI.png" alt="Research image 3" style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 8px; font-style: italic;">Research image 3.</figcaption>
   </figure>
 
-  <!-- Image 4: Row 2, Column 2 -->
   <figure style="margin: 0;">
-    <img src="{{ base_path }}/images/research/PrototypeDetails.png"
-         alt="Research image 4"
-         style="width: 100%; height: auto; display: block;">
-    <figcaption style="margin-top: 8px; font-style: italic;">
-      Research image 4.
-    </figcaption>
+    <img src="{{ base_path }}/images/research/PrototypeDetails.png" alt="Research image 4" style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 8px; font-style: italic;">Research image 4.</figcaption>
   </figure>
 
 </div>
