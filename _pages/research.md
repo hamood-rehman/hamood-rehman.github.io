@@ -17,17 +17,6 @@ author_profile: true
   <img src="{{ base_path }}/images/research/10kV Switch.png" alt="10 kV SiC switch architecture" style="width: 500%; height: 250%; display: block;">
 </figure>
 
-
-## ‘Impact Factor’ of Parameters Variations on Voltage Balancing
-
-- Series-connected SiC MOSFETs experience dynamic voltage-imbalance.
-- A quantitative 'Impact Factor' is proposed to identify parameters that affect the voltage-imbalance.
-- Experimental validation conducted with 3.3kV SiC MOSFETs with at 1kV/2kV/3kV/4kV DC bus voltages and 10A/20A/30A/40A switching currents to get high fidelity experimental data.
-
-<figure>
-  <img src="{{ base_path }}/images/research/IF.png" alt="Bar chart: share of SHAP attribution to dynamic voltage imbalance." style="width: 500%; height: 250%; display: block;">
-</figure>
-
 ## Wireless gate-driver power supply for medium-voltage SiC MOSFETs
 
 - 6 W, +15 V / −5 V supply: GaN full-bridge inverter at 2.8 MHz, PCB air-core transformer with a 12.7 mm gap (about 38kV theoretical air insulation), and full-bridge rectifiers.
@@ -35,6 +24,16 @@ author_profile: true
 
 <figure>
   <img src="{{ base_path }}/images/research/wpt-gdps-prototype.jpg" alt="Wireless gate-driver power supply prototype:" style="width: 500%; height: 250%; display: block;">
+</figure>
+
+## ‘Impact Factor’ of parameters variations on voltage-balancing
+
+- Series-connected SiC MOSFETs experience dynamic voltage-imbalance.
+- A quantitative 'Impact Factor' is proposed to identify parameters that affect the voltage-imbalance.
+- Experimental validation conducted with 3.3kV SiC MOSFETs with at 1kV/2kV/3kV/4kV DC bus voltages and 10A/20A/30A/40A switching currents to get high fidelity experimental data.
+
+<figure>
+  <img src="{{ base_path }}/images/research/IF.png" alt="Bar chart: share of SHAP attribution to dynamic voltage imbalance." style="width: 500%; height: 250%; display: block;">
 </figure>
 
 ## 650 V GaN three-level flying-capacitor inverter building block
