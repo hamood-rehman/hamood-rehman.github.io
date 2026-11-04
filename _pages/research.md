@@ -15,44 +15,52 @@ author_profile: true
 
 <div style="
     display: grid;
-    grid-template-columns: 1fr 1fr 1.2fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    align-items: stretch;
+    align-items: start;
 ">
 
-  <!-- Row 1, Column 1 -->
-  <figure style="grid-column: 1; grid-row: 1; margin: 0;">
+  <!-- Image 1: Row 1, Column 1 -->
+  <figure style="margin: 0;">
     <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png"
          alt="10 kV SiC switch architecture"
-         style="width: 500%; height: auto; display: block;">
+         style="width: 100%; height: auto; display: block;">
     <figcaption style="margin-top: 8px; font-style: italic;">
       10 kV SiC switch architecture.
     </figcaption>
   </figure>
 
-  <!-- Row 2, Column 1 -->
-  <figure style="grid-column: 1; grid-row: 2; margin: 0;">
-    <img src="{{ base_path }}/images/research/HI.png"
-         alt="Research image"
-         style="width: 500%; height: auto; display: block;">
+  <!-- Image 2: Row 1, Column 2 -->
+  <figure style="margin: 0;">
+    <img src="{{ base_path }}/images/research/20261103_120929.jpg"
+         alt="High-voltage SiC prototype"
+         style="width: 100%; height: auto; display: block;">
     <figcaption style="margin-top: 8px; font-style: italic;">
-      Research prototype.
+      High-voltage SiC prototype.
     </figcaption>
   </figure>
 
-  <!-- Column 2 (spanning both rows) -->
-  <figure style="grid-column: 2 / 4; grid-row: 1 / 3; margin: 0;">
-    <img src="{{ base_path }}/images/research/20261103_120929.jpg"
-         alt="High-voltage SiC gate driver prototype"
-         style="width: 100%; height: auto; object-fit: contain; display: block;">
+  <!-- Image 3: Row 2, Column 1 -->
+  <figure style="margin: 0;">
+    <img src="{{ base_path }}/images/research/HI.png"
+         alt="Research image 3"
+         style="width: 100%; height: auto; display: block;">
     <figcaption style="margin-top: 8px; font-style: italic;">
-      High-voltage SiC gate driver prototype.
+      Research image 3.
+    </figcaption>
+  </figure>
+
+  <!-- Image 4: Row 2, Column 2 -->
+  <figure style="margin: 0;">
+    <img src="{{ base_path }}/images/research/PrototypeDetails.png"
+         alt="Research image 4"
+         style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 8px; font-style: italic;">
+      Research image 4.
     </figcaption>
   </figure>
 
 </div>
-
 
 ## Which device mismatches actually cause voltage imbalance?
 
