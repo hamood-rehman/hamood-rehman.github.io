@@ -19,16 +19,16 @@ author_profile: true
 
 </div>
 
-## Which device mismatches actually cause voltage imbalance?
+## ‘Impact Factor’ of Parameters Variations on Voltage Balancing
 
 *IEEE APEC 2026, oral presentation*
 
-- Characterized five Wolfspeed 3.3 kV SiC MOSFETs (V<sub>th</sub>, g<sub>m</sub>, C<sub>gs</sub>, C<sub>gd</sub>, C<sub>ds</sub>) and recorded 448 double-pulse measurements on series-connected pairs from 1 to 4 kV and 10 to 40 A, across device-position and gate-driver configurations.
-- Fit a Gaussian-process surrogate to the measurements (test R² ≈ 0.95), then used Sobol indices and SHAP values to separate individual effects from interactions.
-- **Result:** imbalance is driven mainly by interactions between mismatches rather than by any single one. C<sub>gs</sub> and V<sub>th</sub> mismatch carry roughly 50% and 30% of the SHAP attribution, and g<sub>m</sub> mismatch was negligible under the tested conditions. The practical takeaway is to screen devices for series stacks on C<sub>gs</sub> and V<sub>th</sub> first.
+- Series-connected SiC MOSFETs experience dynamic voltage-imbalance.
+- A quantitative 'Impact Factor' is proposed to identify parameters that affect the voltage-imbalance.
+- Experimental validation conducted with 3.3kV SiC MOSFETs with at 1kV/2kV/3kV/4kV DC bus voltages and 10A/20A/30A/40A switching currents to get high fidelity experimental data.
 
 <figure>
-  <img src="{{ base_path }}/images/research/shap-attribution.svg" alt="Bar chart: share of SHAP attribution to dynamic voltage imbalance. Cgs mismatch about 50 percent, Vth about 30 percent, Cgd about 13 percent, Cds about 7 percent, gm negligible.">
+  <img src="{{ base_path }}/images/research/IF.png" alt="Bar chart: share of SHAP attribution to dynamic voltage imbalance. Cgs mismatch about 50 percent, Vth about 30 percent, Cgd about 13 percent, Cds about 7 percent, gm negligible.">
 </figure>
 
 ## Wireless gate-driver power supply for medium-voltage SiC MOSFETs
