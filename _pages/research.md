@@ -15,15 +15,16 @@ author_profile: true
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; align-items: start;">
 
-  <figure style="margin: 0;">
-    <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png" alt="10 kV SiC switch architecture" style="width: 100%; height: auto; display: block;">
-    <figcaption style="margin-top: 8px; font-style: italic;">10 kV SiC switch architecture.</figcaption>
-  </figure>
 
-  <figure style="margin: 0;">
-    <img src="{{ base_path }}/images/research/20261103_120929.jpg" alt="High-voltage SiC prototype" style="width: 100%; height: auto; display: block;">
-    <figcaption style="margin-top: 8px; font-style: italic;">High-voltage SiC prototype.</figcaption>
-  </figure>
+  <figure>
+  <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png" alt="10 kV SiC switch architecture" style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 8px; font-style: italic;">10 kV SiC switch architecture.</figcaption>
+</figure>
+
+<figure>
+  <img src="{{ base_path }}/images/research/20261103_120929.jpg" alt="10 kV SiC switch architecture" style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 8px; font-style: italic;">10 kV SiC switch architecture.</figcaption>
+</figure>
 
 </div>
 
