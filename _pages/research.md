@@ -25,7 +25,7 @@ author_profile: true
   <figure style="grid-column: 1; grid-row: 1; margin: 0;">
     <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png"
          alt="10 kV SiC switch architecture"
-         style="width: 300%; height: auto; display: block;">
+         style="width: 500%; height: auto; display: block;">
     <figcaption style="margin-top: 8px; font-style: italic;">
       10 kV SiC switch architecture.
     </figcaption>
@@ -35,7 +35,7 @@ author_profile: true
   <figure style="grid-column: 1; grid-row: 2; margin: 0;">
     <img src="{{ base_path }}/images/research/HI.png"
          alt="Research image"
-         style="width: 300%; height: auto; display: block;">
+         style="width: 500%; height: auto; display: block;">
     <figcaption style="margin-top: 8px; font-style: italic;">
       Research prototype.
     </figcaption>
@@ -45,7 +45,7 @@ author_profile: true
   <figure style="grid-column: 2 / 4; grid-row: 1 / 3; margin: 0;">
     <img src="{{ base_path }}/images/research/20261103_120929.jpg"
          alt="High-voltage SiC gate driver prototype"
-         style="width: 100%; height: 100%; object-fit: contain; display: block;">
+         style="width: 100%; height: auto; object-fit: contain; display: block;">
     <figcaption style="margin-top: 8px; font-style: italic;">
       High-voltage SiC gate driver prototype.
     </figcaption>
