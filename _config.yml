@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Hamood Rehman"
 title_separator          : "-"
 name                     : &name "Hamood Rehman"
-description              : &description "Hamood Rehman - medium-voltage SiC power electronics, University of Arkansas"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Hamood Rehman - Medium-voltage power electronics, University of Arkansas"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://hamood-rehman.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "https://github.com/hamood-rehman.png"
   name             : "Hamood Rehman"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. student, medium-voltage SiC power electronics"
+  bio              : "Ph.D. student, Medium-voltage power electronics"
   location         : "Fayetteville, AR, USA"
   employer         : "University of Arkansas"
   uri              : # URL
