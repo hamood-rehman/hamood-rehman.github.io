@@ -25,7 +25,7 @@ author_profile: true
   <figure style="grid-column: 1; grid-row: 1; margin: 0;">
     <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png"
          alt="10 kV SiC switch architecture"
-         style="width: 200%; height: 100%; display: block;">
+         style="width: 300%; height: auto; display: block;">
     <figcaption style="margin-top: 8px; font-style: italic;">
       10 kV SiC switch architecture.
     </figcaption>
@@ -35,7 +35,7 @@ author_profile: true
   <figure style="grid-column: 1; grid-row: 2; margin: 0;">
     <img src="{{ base_path }}/images/research/HI.png"
          alt="Research image"
-         style="width: 200%; height: 100%; display: block;">
+         style="width: 300%; height: auto; display: block;">
     <figcaption style="margin-top: 8px; font-style: italic;">
       Research prototype.
     </figcaption>
