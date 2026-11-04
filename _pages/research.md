@@ -14,7 +14,7 @@ author_profile: true
 - Tested upto 6kV DC bus and 50A switching current in continuous operation with voltage imbalance between devices stayed within 300V, against up to 1.5kV with no control at 4kV DC bus. 
 
 <figure>
-  <img src="{{ base_path }}/images/research/10kV Switch.png" alt="10 kV SiC switch architecture" style="width: 500%; height: 250%; display: block;">
+  <img src="{{ base_path }}/images/research/10kV Switch.png" alt="10 kV SiC switch architecture" style="width: 100%; height: auto; display: block;">
 </figure>
 
 ## Wireless gate-driver power supply for medium-voltage SiC MOSFETs
@@ -42,6 +42,6 @@ author_profile: true
 - Experimental validation conducted with 3.3kV SiC MOSFETs with at 1kV/2kV/3kV/4kV DC bus voltages and 10A/20A/30A/40A switching currents to get high fidelity experimental data.
 
 <figure>
-  <img src="{{ base_path }}/images/research/IF.png" alt="Bar chart: share of SHAP attribution to dynamic voltage imbalance." style="width: 1000%; height: 800%; display: block;">
+  <img src="{{ base_path }}/images/research/IF.png" alt="Bar chart: share of SHAP attribution to dynamic voltage imbalance." style="width: 100%; height: auto; display: block;">
 </figure>
 
