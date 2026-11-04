@@ -23,7 +23,7 @@ author_profile: true
 - Compared four compensation networks (S-S, LCC-S, S/S-CL, LCL-S) on identical hardware while double-pulse testing a 3.3 kV SiC MOSFET at a 2.5 kV bus, measuring coupling capacitance, output stability under dv/dt, and thermal behavior.
 
 <figure>
-  <img src="{{ base_path }}/images/research/wpt-gdps-prototype.jpg" alt="Wireless gate-driver power supply prototype" style="width: 400%; height: auto; display: block;">
+  <img src="{{ base_path }}/images/research/wpt-gdps-prototype.jpg" alt="Wireless gate-driver power supply prototype" style="width: 100%; height: auto; display: block;">
 </figure>
 
 ## ‘Impact Factor’ of parameters variations on voltage-balancing
