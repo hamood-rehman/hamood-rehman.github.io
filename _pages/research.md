@@ -17,12 +17,7 @@ author_profile: true
 
 
   <figure>
-  <img src="{{ base_path }}/images/research/10kv SiC switch Architecture.png" alt="10 kV SiC switch architecture" style="width: 100%; height: auto; display: block;">
-    <figcaption style="margin-top: 8px; font-style: italic;">10 kV SiC switch architecture.</figcaption>
-</figure>
-
-<figure>
-  <img src="{{ base_path }}/images/research/20261103_120929.jpg" alt="10 kV SiC switch architecture" style="width: 100%; height: auto; display: block;">
+  <img src="{{ base_path }}/images/research/10kV Switch.png" alt="10 kV SiC switch architecture" style="width: 100%; height: auto; display: block;">
     <figcaption style="margin-top: 8px; font-style: italic;">10 kV SiC switch architecture.</figcaption>
 </figure>
 
