@@ -26,6 +26,15 @@ author_profile: true
   <img src="{{ base_path }}/images/research/wpt-gdps-prototype.jpg" alt="Wireless gate-driver power supply prototype" style="width: 100%; height: auto; display: block;">
 </figure>
 
+## BJT-based active dv/dt control 
+
+-  A low-voltage NPN BJT is inserted into the MOSFET’s Kelvin source path, and its conduction is actively controlled by a closed-loop PI controller, modulating its equivalent on-state resistance.
+-  Controls gate-current in the SiC gate-source discharge path during turn-off.
+
+<figure>
+  <img src="{{ base_path }}/images/research/npn.png" alt="BJT based dv/dt control" style="width: 100%; height: auto; display: block;">
+</figure>
+
 ## ‘Impact Factor’ of parameters variations on voltage-balancing
 
 - Series-connected SiC MOSFETs experience dynamic voltage-imbalance.
@@ -36,21 +45,3 @@ author_profile: true
   <img src="{{ base_path }}/images/research/IF.png" alt="Bar chart: share of SHAP attribution to dynamic voltage imbalance." style="width: 1000%; height: 800%; display: block;">
 </figure>
 
-## 650 V GaN three-level flying-capacitor inverter building block
-
-*2024–2025*
-
-- Three-phase, 25 kVA, 800 V DC bus inverter built from 650 V GaN devices.
-- Implemented single-phase-shift modulation on a TI TMS320F28379D DSP.
-- Designed the output LC filter for ripple, THD, and resonance; output-current THD of about 2.6%.
-
-## Automated air-core PCB transformer design
-
-- Multi-objective optimization of air-core PCB transformers with NSGA-III, verified with ANSYS electromagnetic simulation.
-
-## Switched-inductor buck-boost DC–DC converters
-
-*M.S. research, GIK Institute*
-
-- Topology development, efficiency analysis, and control of a switched-inductor buck-boost converter with a low inductance requirement for low-power applications.
-- Published in *IET Power Electronics* (2023) and IEEE IECON 2021.
