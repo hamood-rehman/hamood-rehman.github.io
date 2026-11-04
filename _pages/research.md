@@ -27,7 +27,7 @@ author_profile: true
 - Experimental validation conducted with 3.3kV SiC MOSFETs with at 1kV/2kV/3kV/4kV DC bus voltages and 10A/20A/30A/40A switching currents to get high fidelity experimental data.
 
 <figure>
-  <img src="{{ base_path }}/images/research/IF.png" alt="Bar chart: share of SHAP attribution to dynamic voltage imbalance. Cgs mismatch about 50 percent, Vth about 30 percent, Cgd about 13 percent, Cds about 7 percent, gm negligible.">
+  <img src="{{ base_path }}/images/research/IF.png" alt="Bar chart: share of SHAP attribution to dynamic voltage imbalance." style="width: 500%; height: 250%; display: block;">
 </figure>
 
 ## Wireless gate-driver power supply for medium-voltage SiC MOSFETs
