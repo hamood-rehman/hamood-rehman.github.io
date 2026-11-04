@@ -33,7 +33,7 @@ author_profile: true
 - Experimental validation conducted with 3.3kV SiC MOSFETs with at 1kV/2kV/3kV/4kV DC bus voltages and 10A/20A/30A/40A switching currents to get high fidelity experimental data.
 
 <figure>
-  <img src="{{ base_path }}/images/research/IF.png" alt="Bar chart: share of SHAP attribution to dynamic voltage imbalance." style="width: 800%; height: 400%; display: block;">
+  <img src="{{ base_path }}/images/research/IF.png" alt="Bar chart: share of SHAP attribution to dynamic voltage imbalance." style="width: 800%; height: 800%; display: block;">
 </figure>
 
 ## 650 V GaN three-level flying-capacitor inverter building block
